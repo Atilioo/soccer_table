@@ -1,6 +1,29 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sanduiche{
+    /*background-color: red;*/
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 100;
+    left: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.line{
+    width: 100%;
+    height: .1rem;
+    background-color: #fff;
+    box-shadow: 0.1rem 0.1rem 1px #000;
 }
 
 header{
@@ -76,3 +99,46 @@ header{
     opacity: inherit;
 }
 
+.sidebar{
+    width: 20rem;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: -20rem;
+}
+
+.sidebar.mostrar-menu{
+    left: 0;
+}
+
+.menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-item{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.menu-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.menu-link:hover{
+    color: rgb(170, 13, 13);
+}
+
+.redes-sociais{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
