@@ -25,6 +25,9 @@ header{
 }
 
 .banner{
+    background-color: rgba(0, 0, 0,0.5);
+    border-radius: 7px;
+    padding: 10px;
     position: absolute;
     top: 30%;
     right: 15%;
