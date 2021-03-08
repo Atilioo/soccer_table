@@ -110,7 +110,9 @@ header{
     top: 0;
     left: -20rem;
 }
-
+.sidebar{
+    transition-duration: 0.63s;
+}
 .sidebar.mostrar-menu{
     left: 0;
 }
