@@ -82,12 +82,16 @@ header{
 
 
 .banner{
+    
     background-color: rgba(0, 0, 0,0.4);
     border-radius: 7px;
     padding: 10px;
     position: absolute;
     top: 30%;
     right: 5%;
+    
+
+    
 }
 .banner div *{
     display: inline-block;
@@ -132,6 +136,8 @@ header{
     opacity: inherit;
     background: #000;
     font-weight: bold;
+
+
 }
 
 .sidebar{
@@ -151,6 +157,9 @@ header{
 }
 .add-blur{
     filter: blur(3px);
+    transition: 0.63s ease-in;
+    
+
 }
 
 .menu{
