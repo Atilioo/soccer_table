@@ -72,6 +72,9 @@ header{
     display: inline-block;
     margin-right: 0.5rem;
 }
+.banner img{
+    width: 1.5rem;
+}
 
 .banner h1{
     color: #ffff;
