@@ -68,6 +68,10 @@ header{
     top: 30%;
     right: 5%;
 }
+.banner div *{
+    display: inline-block;
+    margin-right: 0.5rem;
+}
 
 .banner h1{
     color: #ffff;
@@ -131,6 +135,7 @@ header{
 }
 
 .menu-item{
+    line-height: 2rem;
     text-align: center;
     margin-bottom: .5rem;
     
